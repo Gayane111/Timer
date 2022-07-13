@@ -1,6 +1,7 @@
 import './App.css';
 import { Component } from "react";
 import Card from './UI/Card/Card';
+import Text from './UI/Card/Card'
 
 class App extends Component {
   constructor(props) {
@@ -29,12 +30,9 @@ class App extends Component {
   }
  render() {
   return (
-    
-    <Card className = "container">
-  <text>
-  {this.state.timer}
-  </text>
 
+    <Card className = "container">
+  <Text> {this.state.timer}</Text>
     </Card>
   
       
