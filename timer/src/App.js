@@ -1,7 +1,7 @@
 import './App.css';
 import { Component } from "react";
 import Card from './UI/Card/Card';
-import Text from './UI/Card/Card'
+import Text from './Component/Text/text'
 
 class App extends Component {
   constructor(props) {
